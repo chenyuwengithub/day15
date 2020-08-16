@@ -24,3 +24,4 @@
 <!-- JAVASCRIPT -->
 <script src="${path }/resources/js/jquery.min.js?v=2.1.4"></script>
 <script src="${path }/resources/js/bootstrap.min.js?v=3.3.6"></script>
+<script src="${path }/resources/js/echarts.min.js"></script>

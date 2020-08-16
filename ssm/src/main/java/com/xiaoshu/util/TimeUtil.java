@@ -19,7 +19,7 @@ public class TimeUtil {
 	}
 	
 	/**
-	 * 将String格式化成日期类型
+	 * 将日期格式化成String类型
 	 * @param date
 	 * @param pattern
 	 * @return

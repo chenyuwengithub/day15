@@ -68,6 +68,7 @@ public class UserController extends LogController{
 			if (StringUtil.isNotEmpty(usertype)) {
 				user.setUsertype(usertype.getBytes()[0]);
 			}
+			
 			Integer pageSize = StringUtil.isEmpty(limit)?ConfigUtil.getPageSize():Integer.parseInt(limit);
 			Integer pageNum =  (Integer.parseInt(offset)/pageSize)+1;
 			PageInfo<User> userList= userService.findUserPage(user,pageNum,pageSize,ordername,order);
