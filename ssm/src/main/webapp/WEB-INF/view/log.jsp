@@ -115,7 +115,7 @@
 	
 	<script type="text/javascript">
 	
-Date.prototype.Format = function (fmt) {
+	Date.prototype.Format = function (fmt) {
 	    var o = {  
 	        "M+": this.getMonth() + 1, //月份   
 	        "d+": this.getDate(), //日   

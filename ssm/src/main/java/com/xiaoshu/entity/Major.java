@@ -3,42 +3,40 @@ package com.xiaoshu.entity;
 import java.io.Serializable;
 import javax.persistence.*;
 
-@Table(name = "tb_major_day")
 public class Major implements Serializable {
     @Id
-    @Column(name = "md_id")
-    private Integer mdId;
+    private Integer maid;
 
-    private String mdname;
-
+    private String maname;
+    
     private static final long serialVersionUID = 1L;
 
     /**
-     * @return md_id
+     * @return maid
      */
-    public Integer getMdId() {
-        return mdId;
+    public Integer getMaid() {
+        return maid;
     }
 
     /**
-     * @param mdId
+     * @param maid
      */
-    public void setMdId(Integer mdId) {
-        this.mdId = mdId;
+    public void setMaid(Integer maid) {
+        this.maid = maid;
     }
 
     /**
-     * @return mdname
+     * @return maname
      */
-    public String getMdname() {
-        return mdname;
+    public String getManame() {
+        return maname;
     }
 
     /**
-     * @param mdname
+     * @param maname
      */
-    public void setMdname(String mdname) {
-        this.mdname = mdname == null ? null : mdname.trim();
+    public void setManame(String maname) {
+        this.maname = maname == null ? null : maname.trim();
     }
 
     @Override
@@ -47,8 +45,8 @@ public class Major implements Serializable {
         sb.append(getClass().getSimpleName());
         sb.append(" [");
         sb.append("Hash = ").append(hashCode());
-        sb.append(", mdId=").append(mdId);
-        sb.append(", mdname=").append(mdname);
+        sb.append(", maid=").append(maid);
+        sb.append(", maname=").append(maname);
         sb.append("]");
         return sb.toString();
     }

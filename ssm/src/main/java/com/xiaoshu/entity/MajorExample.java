@@ -104,133 +104,133 @@ public class MajorExample {
             criteria.add(new Criterion(condition, value1, value2));
         }
 
-        public Criteria andMdIdIsNull() {
-            addCriterion("md_id is null");
+        public Criteria andMaidIsNull() {
+            addCriterion("maid is null");
             return (Criteria) this;
         }
 
-        public Criteria andMdIdIsNotNull() {
-            addCriterion("md_id is not null");
+        public Criteria andMaidIsNotNull() {
+            addCriterion("maid is not null");
             return (Criteria) this;
         }
 
-        public Criteria andMdIdEqualTo(Integer value) {
-            addCriterion("md_id =", value, "mdId");
+        public Criteria andMaidEqualTo(Integer value) {
+            addCriterion("maid =", value, "maid");
             return (Criteria) this;
         }
 
-        public Criteria andMdIdNotEqualTo(Integer value) {
-            addCriterion("md_id <>", value, "mdId");
+        public Criteria andMaidNotEqualTo(Integer value) {
+            addCriterion("maid <>", value, "maid");
             return (Criteria) this;
         }
 
-        public Criteria andMdIdGreaterThan(Integer value) {
-            addCriterion("md_id >", value, "mdId");
+        public Criteria andMaidGreaterThan(Integer value) {
+            addCriterion("maid >", value, "maid");
             return (Criteria) this;
         }
 
-        public Criteria andMdIdGreaterThanOrEqualTo(Integer value) {
-            addCriterion("md_id >=", value, "mdId");
+        public Criteria andMaidGreaterThanOrEqualTo(Integer value) {
+            addCriterion("maid >=", value, "maid");
             return (Criteria) this;
         }
 
-        public Criteria andMdIdLessThan(Integer value) {
-            addCriterion("md_id <", value, "mdId");
+        public Criteria andMaidLessThan(Integer value) {
+            addCriterion("maid <", value, "maid");
             return (Criteria) this;
         }
 
-        public Criteria andMdIdLessThanOrEqualTo(Integer value) {
-            addCriterion("md_id <=", value, "mdId");
+        public Criteria andMaidLessThanOrEqualTo(Integer value) {
+            addCriterion("maid <=", value, "maid");
             return (Criteria) this;
         }
 
-        public Criteria andMdIdIn(List<Integer> values) {
-            addCriterion("md_id in", values, "mdId");
+        public Criteria andMaidIn(List<Integer> values) {
+            addCriterion("maid in", values, "maid");
             return (Criteria) this;
         }
 
-        public Criteria andMdIdNotIn(List<Integer> values) {
-            addCriterion("md_id not in", values, "mdId");
+        public Criteria andMaidNotIn(List<Integer> values) {
+            addCriterion("maid not in", values, "maid");
             return (Criteria) this;
         }
 
-        public Criteria andMdIdBetween(Integer value1, Integer value2) {
-            addCriterion("md_id between", value1, value2, "mdId");
+        public Criteria andMaidBetween(Integer value1, Integer value2) {
+            addCriterion("maid between", value1, value2, "maid");
             return (Criteria) this;
         }
 
-        public Criteria andMdIdNotBetween(Integer value1, Integer value2) {
-            addCriterion("md_id not between", value1, value2, "mdId");
+        public Criteria andMaidNotBetween(Integer value1, Integer value2) {
+            addCriterion("maid not between", value1, value2, "maid");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameIsNull() {
-            addCriterion("mdname is null");
+        public Criteria andManameIsNull() {
+            addCriterion("maname is null");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameIsNotNull() {
-            addCriterion("mdname is not null");
+        public Criteria andManameIsNotNull() {
+            addCriterion("maname is not null");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameEqualTo(String value) {
-            addCriterion("mdname =", value, "mdname");
+        public Criteria andManameEqualTo(String value) {
+            addCriterion("maname =", value, "maname");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameNotEqualTo(String value) {
-            addCriterion("mdname <>", value, "mdname");
+        public Criteria andManameNotEqualTo(String value) {
+            addCriterion("maname <>", value, "maname");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameGreaterThan(String value) {
-            addCriterion("mdname >", value, "mdname");
+        public Criteria andManameGreaterThan(String value) {
+            addCriterion("maname >", value, "maname");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameGreaterThanOrEqualTo(String value) {
-            addCriterion("mdname >=", value, "mdname");
+        public Criteria andManameGreaterThanOrEqualTo(String value) {
+            addCriterion("maname >=", value, "maname");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameLessThan(String value) {
-            addCriterion("mdname <", value, "mdname");
+        public Criteria andManameLessThan(String value) {
+            addCriterion("maname <", value, "maname");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameLessThanOrEqualTo(String value) {
-            addCriterion("mdname <=", value, "mdname");
+        public Criteria andManameLessThanOrEqualTo(String value) {
+            addCriterion("maname <=", value, "maname");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameLike(String value) {
-            addCriterion("mdname like", value, "mdname");
+        public Criteria andManameLike(String value) {
+            addCriterion("maname like", value, "maname");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameNotLike(String value) {
-            addCriterion("mdname not like", value, "mdname");
+        public Criteria andManameNotLike(String value) {
+            addCriterion("maname not like", value, "maname");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameIn(List<String> values) {
-            addCriterion("mdname in", values, "mdname");
+        public Criteria andManameIn(List<String> values) {
+            addCriterion("maname in", values, "maname");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameNotIn(List<String> values) {
-            addCriterion("mdname not in", values, "mdname");
+        public Criteria andManameNotIn(List<String> values) {
+            addCriterion("maname not in", values, "maname");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameBetween(String value1, String value2) {
-            addCriterion("mdname between", value1, value2, "mdname");
+        public Criteria andManameBetween(String value1, String value2) {
+            addCriterion("maname between", value1, value2, "maname");
             return (Criteria) this;
         }
 
-        public Criteria andMdnameNotBetween(String value1, String value2) {
-            addCriterion("mdname not between", value1, value2, "mdname");
+        public Criteria andManameNotBetween(String value1, String value2) {
+            addCriterion("maname not between", value1, value2, "maname");
             return (Criteria) this;
         }
     }
